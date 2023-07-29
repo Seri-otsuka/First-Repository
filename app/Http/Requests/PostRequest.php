@@ -18,4 +18,8 @@ class PostRequest extends FormRequest
                 'post.body' => 'required|string|max:4000',
             ];
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master

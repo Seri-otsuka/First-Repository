@@ -5,14 +5,26 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> origin/master
     protected $fillable = [
         'title',
         'body',
         ];
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> origin/master
     public function getPaginateByLimit(int $limit_count = 5)
     {
        return $this->orderby('updated_at', 'DESC')->paginate($limit_count);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master

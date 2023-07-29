@@ -19,10 +19,19 @@ class PostController extends Controller
     {
         return view('posts/create');
     }
+<<<<<<< HEAD
   public function store(PostRequest $request, Post $post)
+=======
+    
+    public function store(PostRequest $request, Post $post)
+>>>>>>> origin/master
     {
         $input = $request['post'];
         $post->fill($input)->save();
         return redirect('/posts/'. $post->id);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master
