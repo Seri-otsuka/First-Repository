@@ -3,15 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Blog</title>
-<<<<<<< HEAD
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-=======
-
-        <!-- Fonts -->
-        <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
->>>>>>> origin/master
   
     </head>
     <body class="antialiased">
@@ -25,11 +18,7 @@
             </div>
             <div class="body">
                 <h2>Body</h2>
-<<<<<<< HEAD
                 <textarea name="post[body]" placeholder="今日も1日お疲れさまでした。">{{old('post.body')}}</textarea>
-=======
-               <textarea name="post[body]" placeholder="今日も1日お疲れさまでした。">{{old('post.body')}}</textarea>
->>>>>>> origin/master
                <p class='body__error' style="color:red">{{ $errors->first('post.body') }}</p>
             </div>
             <input type="submit" value="store">
@@ -38,8 +27,4 @@
            <a href="/">戻る</a>
        </div>
     </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> origin/master
