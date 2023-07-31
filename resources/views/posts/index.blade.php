@@ -7,6 +7,8 @@
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
   
     </head>
+    <x-app-layout>
+        <x-slot name="header">Topページ</x-slot>
     <body class="antialiased">
        <h1>Blog Name</h1>
        <a href="/posts/create">create</a>
@@ -34,5 +36,7 @@
             }
          }
         </script>
+        <div class='loginname'>ログインユーザー：{{ Auth::user()->name }}</div></div>
     </body>
+    </x-app-layout>
 </html>
